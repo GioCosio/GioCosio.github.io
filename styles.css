@@ -38,7 +38,7 @@ body {
     display: flex;
     flex-direction: column;
     row-gap: 15px;
-    margin: 150px 0 50px 0;
+    margin: 50px 0 50px 0;
 }
 
 .nav-list a {
@@ -169,90 +169,4 @@ main {
 .project-details {
     font-size: 1.1rem;
     line-height: 1.6;
-}
-
-
-@media (max-width: 1100px) {
-    .navbar {
-        background-color: #222;
-        color: white;
-        position: relative;
-        height: 110px;
-        width: 100vw;
-        display: flex;
-        align-items: normal;
-        padding: 0;
-    }
-
-    .name {
-        background-color: #03312E;
-        color: white;
-        position: fixed;
-        height: 110px;
-        width: 100vw;
-        display: flex;
-        align-items: normal;
-        padding: 30px 0 0 30px;
-    }
-
-    .name a {
-        color: white;
-        text-decoration: none;
-        font-size: 1.5em;
-        font-weight: bold;
-    }
-
-    .nav-list {
-        list-style: none;
-        display: flex;
-        row-gap: 15px;
-        margin-top: 150px;
-    }
-
-    .nav-list a {
-        color: white;
-        text-decoration: none;
-        font-size: 1.5rem;
-        transition: color 0.3s ease;
-    }
-
-    .nav-list a:hover {
-        color: #4da6ff;
-    }
-
-    .contact {
-        display: flex;
-        position: fixed;
-    }
-
-    .contact li {
-        width: 110px;
-        height: 90px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .linkedin-logo {
-        margin: 10px 40px 0 60vw;
-        width: 90px;
-        filter: invert(100%);
-    }
-
-    .github-logo {
-        margin: 15px 30px 0 0;
-        width: 80px;
-        filter: invert(100%);
-    }
-
-    .instagram-logo {
-        margin: 0 0 0 0;
-        width: 110px;
-        filter: invert(100%);
-    }
-
-    main {
-        width: 100vw;
-        padding: 0 0 0 0;
-    }
 }
