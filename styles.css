@@ -160,6 +160,20 @@ main {
     margin-bottom: 10px;
 }
 
+#resume-coursework {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+    padding-right: 40px;
+}
+
+#resume-skills {
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 40px;
+}
+
 .project {
     display: flex;
     gap: 40px;
