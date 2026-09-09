@@ -56,13 +56,14 @@ body {
     list-style: none;
     display: flex;
     flex-direction: column;
-    margin: 150px 0 20px 0;
+    margin: 150px 0 40px 0;
 }
 
 .apps {
     list-style: none;
     display: flex;
     align-items: center;
+    margin: 0 0 0 10px;
 }
 
 .apps li {
