@@ -200,19 +200,33 @@ main {
 }
 
 .project {
+    background-color: #7185a2;
     display: flex;
-    gap: 40px;
+    flex-direction: column;
+    gap: 15px;
+    justify-items: center;
     align-items: center;
-    padding-bottom: 100px;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .project img {
-    width: 300px;
-    height: auto;
+    width: 100%;
     border-radius: 10px;
 }
 
 .project-details {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    gap: 5px;
     font-size: 1.1rem;
-    line-height: 1.6;
+}
+
+.project-skills {
+    background-color: #8fa5c6;
+    font-size: 1.1rem;
+    padding: 3px;
+    border: 3px solid #798faf;
+    border-radius: 8px;
 }
