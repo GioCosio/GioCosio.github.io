@@ -57,10 +57,18 @@ function drawStars() {
     }
 }
 
+function resizeCanvas() {
+    canvas.width = canvas.clientWidth; 
+    canvas.height = canvas.clientHeight; 
+    createStars();
+}
+
 function animate() {
     drawStars();
     requestAnimationFrame(animate);
 }
+
+window.addEventListener("resize", resizeCanvas);
 
 createStars();
 animate();
